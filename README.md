@@ -1,5 +1,5 @@
 # Calculator Web App
-
+live preview : http://127.0.0.1:3000/index.html
 A simple calculator built with HTML, CSS, and JavaScript.
 
 ## Features
