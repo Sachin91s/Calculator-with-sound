@@ -1,101 +1,124 @@
 # Calculator Web App
-A simple calculator built with HTML, CSS, and JavaScript.
+![Calculator](https://img.shields.io/badge/Web_App-Calculator-aqua?style=for-the-badge&logo=google-calculator)
 
-## Features
-- Basic arithmetic operations (+, -, ×, ÷)
-- Clear (C) and Delete (del) functions
-- Parentheses support
-- Sound feedback on button clicks
-- Responsive design
+<p align="center">
+A modern and responsive <b>Calculator Web Application</b> built using  
+<b>HTML • CSS • JavaScript</b>
+</p>
 
-## Files
-- `index.html` - Main structure
-- `Styles.css` - Styling and layout
-- `Script.js` - Calculator functionality
-- `Sound/tic_sound.mp3` - Click sound effect
+<p align="center">
 
-## Usage
-Open `index.html` in a web browser to use the calculator.
+![HTML5](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=for-the-badge)
 
-## Technologies
-- HTML5
-- CSS3 (Grid, Flexbox)
-- JavaScript
-- Audio API
+</p>
+
+---
+
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/🔴-Live_Demo-red?style=for-the-badge)](https://sachin91s.github.io/Calculator-with-sound/)
+
+---
+
+## 🛠 Built With
+
+![HTML5](https://img.shields.io/badge/Code-HTML5-blue?style=flat-square&logo=html5)    </br>
+![CSS3](https://img.shields.io/badge/Style-CSS3-teal?style=flat-square&logo=css3)    </br>
+![JavaScript](https://img.shields.io/badge/Logic-JS-yellow?style=flat-square&logo=javascript)    </br>
+![Audio](https://img.shields.io/badge/Audio-MP3-orange?style=flat-square)     </br>
+![Design](https://img.shields.io/badge/Design-Fire-red?style=flat-square)
+
+---
+
+# ✨ Features
+
+- ➕ **Basic Arithmetic Operations** (+, −, ×, ÷)
+- 🧮 **Parentheses Support** for complex calculations
+- ❌ **Clear (C)** and **Delete (del)** functions
+- 🎵 **Button Click Sound Effect**
+- 🎨 **Clean & Modern UI**
+- 📱 **Fully Responsive Design**
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling & Layout |
+| JavaScript | Calculator Logic |
+| Audio API | Button Sound Effect |
+
+---
+
+# 📂 Project Structure
+
 ```
 Calculator/
-├── index.html          # Main HTML file
-├── Styles.css          # CSS styling
-├── Script.js           # JavaScript functionality
+│
+├── index.html
+├── Styles.css
+├── Script.js
+│
 └── Sound/
-    └── tic_sound.mp3   # Button click sound effect
+    └── tic_sound.mp3
 ```
 
-## 🎯 How to Use
+---
 
-1. **Open the Calculator**: Double-click `index.html` to open in your web browser
-2. **Basic Operations**:
-   - Click number buttons (0-9) to input numbers
-   - Click operator buttons (+, -, ×, ÷) for calculations
-   - Use decimal point (.) for floating-point numbers
-3. **Special Functions**:
-   - **C**: Clear the entire screen
-   - **del**: Delete the last character
-   - **()**: Add parentheses for complex expressions
-   - **=**: Calculate the result
-4. **Sound**: Each button press plays a satisfying click sound
+# ⚙️ How to Use
 
-## 🎨 Design Features
+1️⃣ Clone the repository
 
-- **Clean Interface**: Minimalist design with proper spacing
-- **Visual Feedback**: Buttons have active states with transform effects
-- **Color Coding**: Operator buttons are highlighted in teal (#66fcd2)
-- **Responsive**: Centered layout that works on various screen sizes
-- **Typography**: Clear, readable fonts with appropriate sizing
+```bash
+git clone https://github.com/Sachin91s/calculator.git
+```
 
-## 🔧 JavaScript Functions
+2️⃣ Open the project folder
 
-The calculator includes the following JavaScript functions:
+3️⃣ Run the calculator
 
-- `input(x)`: Appends values to the screen and plays sound
-- `allclear()`: Clears the entire screen
-- `del()`: Deletes the last character
-- `calc()`: Evaluates the mathematical expression using `eval()`
-- `playSound()`: Plays the click sound effect
+```
+index.html
+```
 
-## 🎵 Sound System
+---
 
-- Sound plays on every button press
-- Audio resets to beginning on each play for immediate feedback
-- Uses HTML5 audio element with MP3 format
+# 🎨 Design Highlights
 
-## 🌟 Browser Compatibility
+- Modern **minimal interface**
+- **Color-coded operator buttons**
+- Smooth **button animation**
+- **Grid based layout**
+- Mobile friendly buttons
 
-Works on all modern browsers that support:
-- HTML5 audio
-- CSS Grid
-- JavaScript ES6+
+---
 
-## 📱 Responsive Design
+# 🌐 Browser Compatibility
 
-The calculator features:
-- Centered layout using Flexbox
-- Grid-based button arrangement
-- Appropriate sizing for different devices
-- Touch-friendly button sizes
+Works perfectly on modern browsers:
 
-## 🚀 Getting Started
+- Google Chrome
+- Microsoft Edge
+- Firefox
+- Safari
 
-Simply clone or download the project files and open `index.html` in your web browser. No installation or build process required!
+---
 
-## 🎯 Future Enhancements
+# 🔮 Future Improvements
 
-Potential improvements could include:
-- Memory functions (M+, M-, MR, MC)
 - Scientific calculator functions
-- Theme switching (light/dark mode)
+- Dark / Light theme switch
 - Keyboard support
 - Calculation history
+- Memory buttons (M+, M-, MR)
 
+---
 
-**Note**: This calculator uses JavaScript's `eval()` function for calculations, which is suitable for this educational project. For production use, consider implementing a more secure expression parser.
+# 👨‍💻 Author
+
+Made with ❤️ by **Sachin Kumar**
